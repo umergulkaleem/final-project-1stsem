@@ -22,7 +22,7 @@ const Content: React.FC = () => {
   );
 };
 
-const page = () => {
+const Page = () => {
   const [addcart, addCart] = useState(0);
   return (
     <div>
@@ -318,4 +318,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
