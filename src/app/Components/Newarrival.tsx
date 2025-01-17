@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Newarrival = () => {
   return (
@@ -22,9 +23,11 @@ const Newarrival = () => {
             Asgaard sofa
           </div>
         </div>
-        <div className=" lg:ml-[40px] w-full lg:w-[255px] h-auto lg:h-[64px] border-[1px] border-black mt-[20px] flex items-center justify-center bg-white">
-          <p className="font-normal text-[20px] leading-[30px]">Order Now</p>
-        </div>
+        <Link href="/singleProduct">
+          <div className=" lg:ml-[40px] w-full lg:w-[255px] h-auto lg:h-[64px] border-[1px] border-black mt-[20px] flex items-center justify-center bg-white">
+            <p className="font-normal text-[20px] leading-[30px]">Order Now</p>
+          </div>
+        </Link>
       </div>
     </div>
   );
